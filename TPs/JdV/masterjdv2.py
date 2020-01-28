@@ -1,5 +1,5 @@
 import numpy as np
-def init_grille(n):
+def init_grid(n):
   grille = np.random.randint(2,size=(n,n))
   return grille
 
